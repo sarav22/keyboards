@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/comun.css">
+	<link rel="stylesheet" href="styles/radial.css">
+    <title translate="no">Teclado circular corto</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <p>Introduce el siguiente número con el teclado en pantalla: 3961</p>
+            <div class="input-line"><input type="text" class="number-input" value="" readonly/><button class="delete">Borrar</button></div>
+            <div  class="radial" style="--total: 10">  
+                <div class="let" style="--i:1"><button class="letter" value="1">1</button></div>  
+                <div class="let" style="--i:2"><button class="letter" value="2">2</button></div>  
+                <div class="let" style="--i:3"><button class="letter" value="3">3</button></div>  
+                <div class="let" style="--i:4"><button class="letter" value="4">4</button></div>  
+                <div class="let" style="--i:5"><button class="letter" value="5">5</button></div>  
+                <div class="let" style="--i:6"><button class="letter" value="6">6</button></div> 
+                <div class="let" style="--i:7"><button class="letter" value="7">7</button></div>  
+                <div class="let" style="--i:8"><button class="letter" value="8">8</button></div>  
+                <div class="let" style="--i:9"><button class="letter" value="9">9</button></div> 
+                <div class="let" style="--i:10"><button class="letter" value="0">0</button></div>
+            </div> 
+        </section>
+    </main>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="scripts/keyboard.js"></script>
+<script src="scripts/navigation.js"></script>
+
+</html>
